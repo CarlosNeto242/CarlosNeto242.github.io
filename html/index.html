@@ -3,20 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols&display=swap" rel="stylesheet">
     <title>Parcha</title>
 </head>
 <body>
-    <article>
+    <article class="index-title">
         <h1>Parcha</h1>
     </article>
-    <section>
-        <h3>Nome do usuario</h3>
-        <input type="text" name="nombre" placeholder="Prencha seu nome">
-
-        <h3>Senha do usuario</h3>
-        <input type="text" name="Senha do usuario" placeholder="Prencha sua senha">
-    
+    <section class = "index-section-text-input">
+        <article class="index-text-input">
+            <h3>Nome do usuario</h3>
+            <input type="text" name="nombre" placeholder="Prencha seu nome">
+        </article>
+        <article class="index-text-input">
+            <h3>Senha do usuario</h3>
+            <input type="password" name="Senha do usuario" placeholder="Prencha sua senha">
+            <p>Não tem uma conta? <a href="/html/cadastro.html" target="_blank">Cadastre-se aqui</a></p>
+        </article>
+    </section>
+    <section class="index-section-button">
+        <a href="/html/home.html">
+            <article class="index-button">
+                <p>Login</p>
+            </article>
+        </a>
     </section>
 </body>
 </html>
