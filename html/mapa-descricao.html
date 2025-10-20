@@ -3,42 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/mapa.css">
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols&display=swap" rel="stylesheet">
   <title>Parcha</title>
 </head>
 <body>
-  <header>
-    <h1>Bem-vindo, usuário <i class="fi fi-sr-user"></i></h1>
+  <header class="header">
+    <h1>Bem-vinda, clara</h1>
   </header>
 
   <main>
-    <article>
-      <p>Seleccione a rota</p>
-      <img src="../img/mapa.png" style="width: 100vw; height: 500px;" alt="Imagem de exemplo">
+    <p class="alert">Seleccione a rota</p>
+    <img src="/img/placeholder-map2.png" alt="Mapa-placeholder" class="mapa-img-size">
+    <article class="mapa-descricao-condiçoes">
+      <aside class="mapa-descricao-vetor">
+        <h2>Distancia: 15 km</h2>
+        <p>3.7  <i class="fi fi-br-star"></i></p>  
+      </aside>
+      <h3>Informações: </h3>
+      <ul class="mapa-descricao-lista">
+        <li>Terreno de Terra</li>
+        <li>Majoritariamente plana</li>
+        <li>Bem movimentado</li>
+      </ul>
     </article>
-    <section>
-      <article>
-        <p>15km</p>
-        <p>4.2</p>
-        <i class="fi fi-sr-star"></i>
-      </article>
-      <h3>Informações da rota:</h3>
-      <p>Terreno de terra</p>
-      <p>Maior parte plana</p>
-      <p>+500 pessoas avaliaram</p>
-    </section>
   </main>
 
-  <footer>
-    <nav>
-      <ul>
-        <li><a href="#"><i class="fi fi-sr-home"></i></a></li>
-        <li><a href="#"><i class="fi fi-sr-marker"></i></a></li>
-        <li><a href="#"><i class="fi fi-sr-add"></i></a></li>
-        <li><a href="#"><i class="fi fi-sr-users-alt"></i></a></li>
-        <li><a href="#"><i class="fi fi-sr-user"></i></a></li>
-      </ul>
-    </nav>
-  </footer>
+  <ul class="footer">
+    <li><a href="/html/home.html"><i class="fi fi-br-home"></i></a></li>
+    <li><a href="/html/mapa.html"><i class="fi fi-br-search"></i></a></li>
+    <li><a href="#"><i class="fi fi-br-add"></i></a></li>
+    <li><a href="/html/corridas.html"><i class="fi fi-br-marker"></i></a></li>
+    <li><a href="/html/treinododia.html"><i class="fi fi-br-user"></i></a></li>
+  </ul>
 </body>
 </html>
