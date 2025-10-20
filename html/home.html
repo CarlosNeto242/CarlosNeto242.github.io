@@ -3,47 +3,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/home.css">
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols&display=swap" rel="stylesheet">
   <title>Parcha</title>
 </head>
 <body>
-  <header>
-    <h1>Bem-vindo, usuário <i class="fi fi-sr-user"></i></h1>
+  <header class="header">
+    <h1>Bem-vinda, clara</h1>
   </header>
 
   <main>
-    <article>
-      <p>Amigos / Comunidade</p>
-    </article>
-
-    <article>
-      <p><i class="fi fi-sr-search"></i> O que você busca?</p>
-    </article>
-
-    <article>
+    <article class="home-card-feed">
       <header>
-        <h3><i class="fi fi-sr-user"></i> Usuário 1</h3>
+        <i class="fi fi-br-user"></i>
+        <h3>Carlos Neto</h3>
       </header>
-      <img src="https://placehold.co/400x300" alt="Imagem de exemplo">
-      <time datetime="2025-07-12T19:43">12/07/2025 19:43</time>
-      <p>
-        Última corrida feita no Parque Ibirapuera às 20:30. 
-        Não recomendo esse percurso, principalmente para as mulheres. 
-        Não me senti seguro e estive alerta todos os momentos.
-      </p>
+      <aside class="home-card-content">
+        <img src="/img/placeholder-map.png" alt="Imagem de exemplo">
+        <time datetime="2025-07-12T21:43">20/10/2025 21:43</time>
+        <p>
+          Percurso de corrida do Insper até o Parque Ibirapuera feito as 20:30. Não recomendo, pois tive que atravesar diversas avenidas, muito movimento de carros. Não me senti seguro, muitas motos e paradas para atarvessar as ruas. Para um passeio tranquilo durante o dia pode ser agradável por conta da variedade de comércio, mas...  
+        </p>
+      </aside>
     </article>
+
+    <article class="home-card-feed">
+      <header>
+        <i class="fi fi-br-user"></i>
+        <h3>Valentina Ferreira</h3>
+      </header>
+      <aside class="home-card-content">
+        <img src="/img/placeholder-map.png" alt="Imagem de exemplo">
+        <time datetime="2025-07-12T19:43">18/10/2025 18:21</time>
+        <p>
+          Gostei bastante da rota, principalmente pelo equilíbrio entre trechos planos e subidas mais desafiadoras. O percurso é bem agradável e tem paisagens que realmente fazem valer o esforço. Em alguns pontos o terreno exige atenção, mas nada que atrapalhe a experiência. No geral, é uma rota que dá vontade de repetir.        </p>
+      </aside>
+    </article>
+
+    <article class="home-card-feed">
+      <header>
+        <i class="fi fi-br-user"></i>
+        <h3>Julián Vargas</h3>
+      </header>
+      <aside class="home-card-content">
+        <img src="/img/placeholder-map.png" alt="Imagem de exemplo">
+        <time datetime="2025-07-12T19:43">12/10/2025 20:18</time>
+        <p>
+          A rota tem potencial, mas poderia estar melhor sinalizada. Alguns trechos são cansativos e o piso não está nas melhores condições, o que acaba tirando um pouco do ritmo. Apesar disso, o visual compensa bastante e o clima do lugar torna a corrida bem mais leve. Vale a pena, mas com algumas melhorias ficaria excelente.        </p>
+      </aside>
+    </article>
+
   </main>
 
-  <footer>
-    <nav>
-      <ul>
-        <li><a href="#"><i class="fi fi-sr-home"></i></a></li>
-        <li><a href="#"><i class="fi fi-sr-marker"></i></a></li>
-        <li><a href="#"><i class="fi fi-sr-add"></i></a></li>
-        <li><a href="#"><i class="fi fi-sr-users-alt"></i></a></li>
-        <li><a href="#"><i class="fi fi-sr-user"></i></a></li>
-      </ul>
-    </nav>
-  </footer>
+  <ul class="footer">
+    <li><a href="/html/home.html"><i class="fi fi-br-home"></i></a></li>
+    <li><a href="/html/mapa.html"><i class="fi fi-br-search"></i></a></li>
+    <li><a href="#"><i class="fi fi-br-add"></i></a></li>
+    <li><a href="/html/corridas.html"><i class="fi fi-br-marker"></i></a></li>
+    <li><a href="/html/treinododia.html"><i class="fi fi-br-user"></i></a></li>
+  </ul>
 </body>
 </html>
