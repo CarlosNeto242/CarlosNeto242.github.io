@@ -1,0 +1,30 @@
+body {
+    background-color:#E3DEDE;
+    background-size: cover;          
+    background-position: right;
+    background-repeat: no-repeat; 
+    height: 100vh;               
+}
+.dias-de-treino {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly; 
+    background-color: #D9D9D9;  
+    border-bottom: solid; 
+}
+main {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-evenly; 
+    height: 80vh;
+}
+.data {
+    
+    display: flex; 
+    justify-content: center;
+    background-color: #2E5F84;
+}
+.grupo-treino {
+    display: flex;  
+    flex-direction: column;
+}
