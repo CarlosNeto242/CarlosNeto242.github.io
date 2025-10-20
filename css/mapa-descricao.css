@@ -9,7 +9,7 @@
     font-weight: 700;
 }
 
-main p {
+.alert {
     position: fixed;
     left: 25vw;
     top: 8vh;
@@ -28,14 +28,61 @@ main p {
 
 .mapa-img-size {
     width: 100vw;
-    height: auto;
+    height: 90vh;
+}
+
+.mapa-descricao-condicoes{
+    position: fixed;
+    z-index: 999;
+    top: 50vh;
+    background-color: #E3DEDE;
+    width: 92vw;
+    height: 40vh;
+    padding: 2vh 4vw;
+}
+.mapa-descricao-vetor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: solid #000;
+    padding: 2vh 0;
+}
+
+.mapa-descricao-condiçoes h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.mapa-descricao-condiçoes p {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.mapa-descricao-condiçoes h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.mapa-descricao-condiçoes ul {
+    list-style: circle;
+}
+
+.mapa-descricao-lista {
+    padding: 1vh 8vw;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+.mapa-descricao-lista li{
+    font-size: 1.5rem;
 }
 
 .footer {
     position: fixed;
     width: 92vw;
     left: 0vw;
-    top: 85vh;
+    top: 90vh;
     z-index: 999;
     display: flex;
     flex-direction: row;
