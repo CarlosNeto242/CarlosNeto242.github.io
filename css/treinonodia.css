@@ -23,7 +23,7 @@ main {
     display: flex; 
     flex-direction: column; 
     justify-content: space-evenly; 
-    height: 80vh;
+    height: 50vh;
 }
 .data {
     display: flex; 
@@ -31,9 +31,17 @@ main {
     background-color: #2E5F84;
     background-size: 2vh auto;
 }
-.grupo-treino {
+.treino-atual {
+    font-size: 1.3rem;
     display: flex;  
     flex-direction: column;
+    justify-content: flex-start;
+}
+.outros-treino {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-evenly;
+
 }
 .header {
     background-color: #8AB8DE;
