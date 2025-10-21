@@ -1,0 +1,98 @@
+body {
+    background-color:#E3DEDE;
+    background-size: cover;          
+    background-position: right;
+    background-repeat: no-repeat; 
+    height: 100vh;               
+}
+.dias-de-treino {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly; 
+}
+
+.dias-de-treino li{ 
+    display: flex; 
+    justify-content: center;
+    font-size: 1.3rem;
+    background-color: #2E5F84;  
+    border-radius: 1rem;
+    width: 2rem; 
+}
+main {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-evenly; 
+    height: 50vh;
+}
+.data {
+    display: flex; 
+    justify-content: center;
+    background-color: #2E5F84;
+    background-size: 2vh auto;
+}
+.treino-atual {
+    font-size: 1.3rem;
+    display: flex;  
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.outros-treino {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-evenly;
+
+}
+.header {
+    background-color: #8AB8DE;
+    padding: 2vh 4vw;
+}
+.header h1{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.header-total {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    height: 20vh;
+}
+.footer {
+    position: fixed;
+    width: 92vw;
+    left: 0vw;
+    top: 90vh;
+    z-index: 999;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 4vw;
+    height: 8vh;
+    background-color: #8AB8DE;
+}
+
+.footer li a {
+    text-decoration: none;
+}
+
+.footer .fi {
+    font-size: 8vw;  
+    color: #000;    
+}
+
+.fi-br-add {
+    font-size: 14vw;  
+    color: #000;    
+}
+li {
+    font-family: 'Noto Sans Symbols', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+h2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.2rem; 
+    font-weight: 700;  
+}
