@@ -1,72 +1,56 @@
 body {
-    background-color:#E3DEDE;
-    background-size: cover;          
-    background-position: right;
-    background-repeat: no-repeat; 
-    height: 100vh;               
-}
-.dias-de-treino {
-    display: flex; 
-    flex-direction: row; 
-    justify-content: space-evenly;
-    margin: -1vh;
+    background-color: #E3DEDE;
 }
 
-.dias-de-treino li{ 
-    display: flex; 
-    justify-content: center;
-    font-size: 1.3rem;
-    background-color: #2E5F84;  
-    border-radius: 1rem;
-    width: 2rem; 
-}
-main {
-    display: flex; 
-    flex-direction: column; 
-    justify-content: space-evenly; 
-    height: 50vh;
-}
-.data {
-    height: 1.5vh;
-    font-family: 'DM Sans', sans-serif;
-    display: flex; 
-    justify-content: center;
-    background-color: #2E5F84;
-    padding: 0.5vh;
-    margin: 4vh;
-    border-radius: 3vh; 
-}
-.treino-atual {
-    margin: 1vh; 
-    height: 15vh;
-    font-size: 1.3rem;
-    display: flex;  
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.outros-treinos {
-    height: 50vh;
-    display: flex; 
-    flex-direction: column; 
-    justify-content: space-evenly;
-
-}
 .header {
     background-color: #8AB8DE;
     padding: 2vh 4vw;
 }
+
 .header h1{
     font-family: 'DM Sans', sans-serif;
     font-size: 1.3rem;
     font-weight: 700;
 }
-.header-total {
+
+.dias-de-treino {
     display: flex;
-    flex-direction: column; 
-    justify-content: space-between; 
-    height: 25vh;
+    flex-direction: row;
+    align-items: center;
+    padding: 1vh 4vw;
+    justify-content: space-between;
+    border-bottom: solid black 0.3vh;
 }
+
+.dias-de-treino li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #70879C;
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+}
+
+#dia-atual {
+    background-color: #2E5F84;
+    width: 8vw;
+    height: 8vw;
+}
+
+.alert-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2vh 2vw;
+}
+
+.alert-data p {
+    background-color: rgba(46,95, 132,0.28);
+    padding: 0.5vh 2vw;
+    border-radius: 20px;
+}
+
 .footer {
     position: fixed;
     width: 92vw;
@@ -94,26 +78,4 @@ main {
 .fi-br-add {
     font-size: 14vw;  
     color: #000;    
-}
-li {
-    font-family: 'Noto Sans Symbols', sans-serif;
-    font-size: 0.8rem;
-    font-weight: 700;
-}
-h2 {
-    font-family: "DM Sans", sans-serif;
-    font-size: 1.2rem; 
-    font-weight: 700;  
-}
-.linha {
-  width: 100%;          
-  height: 0.1vh;          
-  background-color: #000; 
-  margin: 0.1vh 0;  
-}
-.etapas-do-treino { 
-    height: 10vh;
-    display: flex; 
-    flex-direction: column; 
-    justify-content: space-evenly; 
 }
