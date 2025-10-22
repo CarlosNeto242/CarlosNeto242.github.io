@@ -1,0 +1,135 @@
+
+ body {
+  background-color: #E3DEDE;
+  font-family: 'DM Sans', sans-serif;
+  margin: 0;
+}
+
+.header {
+  background-color: #8AB8DE;
+  padding: 2vh 4vw;
+}
+
+.header h1 {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+main {
+  padding-bottom: 10vh;
+}
+
+.btn-primario {
+  background-color: #f1f1f1;
+  border: 1px solid #aaa;
+  padding: 0.6em 1.2em;
+  border-radius: 6px;
+  font-weight: 600;
+  display: block;
+  margin: 1em auto;
+}
+
+.filtros {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 0 1.5em;
+  font-size: 0.9rem;
+}
+
+.filtros a {
+  color: #336699;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.lista-corridas {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 0 4vw;
+}
+
+.corrida {
+  background-color: #FEFDFD;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding-bottom: 0.5em;
+}
+
+.cabecalho-corrida {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #F2EFEF;
+  padding: 0.8em;
+  border-bottom: 1px solid #ccc;
+}
+
+.cabecalho-corrida h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.cabecalho-corrida i {
+  font-size: 1.6rem;
+}
+
+.participantes {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  font-weight: 700;
+}
+
+.detalhes {
+  list-style: disc;
+  padding-left: 1.5em;
+  margin: 1em 0;
+  font-size: 0.9rem;
+}
+
+.acoes {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5em;
+}
+
+.acoes button {
+  background-color: #E0E0E0;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  padding: 0.5em 0.7em;
+  font-weight: 600;
+}
+
+.acoes .excluir {
+  background-color: #f8e0e0;
+  border-color: #cc6666;
+  color: #b33;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #8AB8DE;
+  padding: 1vh 0;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.footer i {
+  font-size: 8vw;
+  color: #000;
+}
+
