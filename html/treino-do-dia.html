@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/treino-do-dia.css"> 
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols&display=swap" rel="stylesheet">
+  <title>Treino do Dia</title>
+</head>
+<body>
+  <header class="header">
+    <h1>Bem vinda, Clara</h1>
+  </header>
+
+  <nav class="date-row" aria-label="Seleção de dias">
+    <ul class="date-list"> 
+      <li><button type="button" class="date-pill">04</button></li>
+      <li><button type="button" class="date-pill">05</button></li>
+      <li><button type="button" class="date-pill active" aria-current="date">06</button></li>
+      <li><button type="button" class="date-pill">07</button></li>
+      <li><button type="button" class="date-pill">08</button></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="day-header">
+      <time datetime="2025-09-06">Quarta-feira, 6 de setembro</time>
+    </section>
+
+    <article class="card-treino">
+      <header class="card-title">
+        <h2>TREINO DO DIA:</h2>
+      </header>
+
+      <ol class="treino-list">
+        <li><button class="play"><i class="fi fi-br-play"></i></button> <strong>1 min</strong> - Aquecimento;</li>
+
+        <li class="highlight">
+          <button class="play"><i class="fi fi-br-play"></i></button>
+          <strong>2 min</strong> - Pace 10:00;
+        </li>
+        <li class="highlight">
+          <button class="play"><i class="fi fi-br-play"></i></button>
+          <strong>5 min</strong> - Pace 7:00;
+        </li>
+        <li class="highlight">
+          <button class="play"><i class="fi fi-br-play"></i></button>
+          <strong>3 min</strong> - Pace 6:00;
+        </li>
+      </ol>
+
+      <p class="repeat">Repita <strong>5 vezes</strong></p>
+    </article>
+
+    <article class="card-proximos">
+      <header><h3>Próximos treinos:</h3></header>
+
+      <ul class="proximos-list">
+        <li><button class="play"><i class="fi fi-br-play"></i></button> <strong>5 min</strong> - Aquecimento;</li>
+
+        <li class="boxed">
+          <button class="play"><i class="fi fi-br-play"></i></button>
+          <strong>7 min</strong> - Pace 5:00;
+        </li>
+        <li class="boxed">
+          <button class="play"><i class="fi fi-br-play"></i></button>
+          <strong>5 min</strong> - Pace 6:00;
+        </li>
+        <li class="boxed">
+          <button class="play"><i class="fi fi-br-play"></i></button>
+          <strong>4 min</strong> - Pace 10:00;
+        </li>
+      </ul>
+
+      <p class="repeat">Repita <strong>3 vezes</strong></p>
+
+      <ul class="short-events">
+        <li><i class="fi fi-br-play"></i> <span>7/9 - Corrida rápida</span></li>
+        <li><i class="fi fi-br-play"></i> <span>8/9 - Treino de disparo</span></li>
+      </ul>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <ul>
+      <li><a href="/html/home.html" aria-label="Home"><i class="fi fi-br-home"></i></a></li>
+      <li><a href="/html/mapa.html" aria-label="Buscar"><i class="fi fi-br-search"></i></a></li>
+      <li><a href="#" aria-label="Adicionar"><i class="fi fi-br-add"></i></a></li>
+      <li><a href="/html/telas-de-treino.html" aria-label="Treinos"><i class="fi fi-br-marker"></i></a></li>
+      <li><a href="/html/treino-do-dia.html" aria-label="Perfil"><i class="fi fi-br-user"></i></a></li>
+    </ul>
+  </footer>
+</body>
+</html>
