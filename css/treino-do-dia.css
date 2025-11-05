@@ -173,7 +173,6 @@ header h3 {
     font-weight: 700;
 }
 
-
 .footer {
     position: fixed;
     width: 92vw;
@@ -189,23 +188,8 @@ header h3 {
     background-color: #8AB8DE;
 }
 
-.footer ul {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
 .footer li a {
     text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 6vw;
-    height: 6vw;
-    border-radius: 50%;
 }
 
 .footer .fi {
@@ -213,12 +197,7 @@ header h3 {
     color: #000;    
 }
 
-.footer .fi-br-add {
+.fi-br-add {
     font-size: 14vw;  
     color: #000;    
-}
-
-@media (min-width: 48rem) { 
-    .date-pill { width: 5vw; height: 5vw; font-size: 1rem; }
-    .footer .fi { font-size: 5vw; }
 }
