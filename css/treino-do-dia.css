@@ -202,3 +202,13 @@ header h3 {
     font-size: 14vw;  
     color: #000;    
 }
+.iniciar {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+}
+.botao_iniciar{
+    background-color: rgba(139,184,222,0.25);
+    padding: 0.8vh 1.2vw;
+    border-radius: 0.8rem;
+}
