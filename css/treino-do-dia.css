@@ -208,7 +208,10 @@ header h3 {
     justify-content: space-between;
 }
 .botao_iniciar{
-    background-color: rgba(139,184,222,0.25);
-    padding: 0.8vh 1.2vw;
+    background-size: vh vh;
+    font-family: 'Noto Sans Symbols', sans-serif;
+    background-color: #5B97C4;
+    font-weight: 700;
+    padding: 1vh 3vw;
     border-radius: 0.8rem;
 }

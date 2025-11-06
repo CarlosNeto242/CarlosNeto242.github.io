@@ -4,8 +4,17 @@ body {
 }
 
 .header {
+    display: flex; 
+    justify-content: space-between;
     background-color: #8AB8DE;
     padding: 2vh 4vw;
+}
+
+.header .fi-br-user{
+    border: 0.1rem solid #000;
+    border-radius: 4rem;
+    padding: 0.3vh;
+    width: 2vh;
 }
 
 .header h1{
