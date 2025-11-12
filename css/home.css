@@ -8,6 +8,8 @@ body {
     justify-content: space-between;
     background-color: #8AB8DE;
     padding: 2vh 4vw;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
 }
 
 .header .fi-br-user{
@@ -20,7 +22,7 @@ body {
 .header h1{
     font-family: 'DM Sans', sans-serif;
     font-size: 1.3rem;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .home-card-feed {
@@ -92,5 +94,6 @@ body {
 }
 
 .bem-vindo {
-    
+    font-family: 'DM Sans', sans-serif;
+
 }
