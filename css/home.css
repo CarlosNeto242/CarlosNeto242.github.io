@@ -4,12 +4,11 @@ body {
 }
 
 .header {
-    display: flex; 
-    justify-content: space-between;
     background-color: #8AB8DE;
     padding: 2vh 4vw;
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
+    border-bottom: 0.3rem solid rgba(255,255,255,0.5);
 }
 
 .header .fi-br-user{
