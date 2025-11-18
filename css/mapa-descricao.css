@@ -41,11 +41,11 @@ main {
     position: absolute;
     display: flex; 
     flex-direction: column;
-    justify-content: space-between;
-    top: 50vh;
+    justify-content: space-evenly;
+    top: 59vh;
     background-color: #E3DEDE;
     width: 92vw;
-    height: 35vh;
+    height: 25vh;
     padding: 2vh 4vw;
     border-top: .2vh solid black;
 }
@@ -69,9 +69,9 @@ main {
 
 .mapa-descricao-condicoes h3 {
     display: flex;
-    justify-content: flex-start;
+    align-items: flex-end;
     border: 0px hidden black; 
-    margin: -10vh 0vh 0vh 0vh;
+    margin: 3.5vh 0vh 0vh 0vh;
     font-size: 1.2rem;
     font-weight: 700;
 }
